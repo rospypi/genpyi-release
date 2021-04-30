@@ -1,0 +1,12 @@
+Source: ros-melodic-genpyi
+Section: misc
+Priority: optional
+Maintainer: Yuki Igarashi <me@bonprosoft.com>
+Build-Depends: debhelper (>= 9.0.0), python-setuptools, ros-melodic-catkin (>= 0.5.74), ros-melodic-genmsg, ros-melodic-genpy
+Homepage: https://github.com/rospypi/genpyi
+Standards-Version: 3.9.2
+
+Package: ros-melodic-genpyi
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-genmsg, ros-melodic-genpy
+Description: Python stub generator from genmsg specs
