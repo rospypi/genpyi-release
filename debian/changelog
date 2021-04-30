@@ -1,0 +1,15 @@
+ros-kinetic-genpyi (0.2.0-1xenial) xenial; urgency=high
+
+  * Generate py.typed in catkin built packages (#30 <https://github.com/rospypi/genpy_stubgen/issues/30>)
+  * Make package catkin compatible (#29 <https://github.com/rospypi/genpy_stubgen/issues/29>)
+
+ -- Yuki Igarashi <me@bonprosoft.com>  Fri, 30 Apr 2021 15:00:00 -0000
+
+ros-kinetic-genpyi (0.1.0-1xenial) xenial; urgency=high
+
+  * Initial commit
+  * Contributors: Yuki Igarashi
+
+ -- Yuki Igarashi <me@bonprosoft.com>  Wed, 28 Apr 2021 15:00:00 -0000
+
+
