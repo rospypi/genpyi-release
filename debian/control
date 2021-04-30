@@ -1,0 +1,12 @@
+Source: ros-noetic-genpyi
+Section: misc
+Priority: optional
+Maintainer: Yuki Igarashi <me@bonprosoft.com>
+Build-Depends: debhelper (>= 9.0.0), python3-setuptools, ros-noetic-catkin (>= 0.5.74), ros-noetic-genmsg, ros-noetic-genpy
+Homepage: https://github.com/rospypi/genpyi
+Standards-Version: 3.9.2
+
+Package: ros-noetic-genpyi
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-genmsg, ros-noetic-genpy
+Description: Python stub generator from genmsg specs
